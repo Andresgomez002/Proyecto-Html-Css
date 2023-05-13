@@ -1,0 +1,27 @@
+
+.img-logo{
+    width: 14vh;
+}
+.container-fluid{
+    background-color:black;
+}
+
+.logo {
+    background-color: black;
+}
+
+.text-logo{
+    color: orange;
+}
+.text-menu {
+    color: white;
+}
+div#navbarNavDropdown {
+    background: black;
+}
+
+.icons-color{
+    color: black;
+    font-size: 1.2rem;
+
+}
