@@ -34,3 +34,22 @@ div#navbarNavDropdown {
 .main{
     background-color: black;
 }
+
+.principal {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+span.carousel-control-prev-icon {
+    background-color: black;
+}
+
+span.carousel-control-next-icon {
+    background-color: black;
+}
+.carousel-indicators [data-bs-target] {
+    
+    background-color: blue;
+ 
+}
