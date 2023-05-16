@@ -57,7 +57,7 @@ span.carousel-control-next-icon {
 /*Seccion gratis*/
 .gratis{
     width: 100%;
-    height: 100vh;
+    margin-bottom: 20px;
     display: flex;
     
     
@@ -115,7 +115,6 @@ right: 0;
     border-radius: 5px;
     text-transform: capitalize;
     border: none;
-    outline: none;
     font-weight: 500;
     cursor: pointer;
 }
@@ -123,4 +122,16 @@ right: 0;
     color: white;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+/* */
+
+.boruto{
+    width: 70vh;
+}
+.tarjeta-grande{
+    display: flex;
+    
+}
+.adentro{
+    padding-left: 20px;
 }
