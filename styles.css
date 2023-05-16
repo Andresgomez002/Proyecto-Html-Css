@@ -130,8 +130,14 @@ right: 0;
 }
 .tarjeta-grande{
     display: flex;
+    margin-bottom: 20px;
+
     
 }
 .adentro{
-    padding-left: 20px;
+    padding-left: 15px;
+   
+}
+.ranking-of-kings{
+    width: 100%;
 }
