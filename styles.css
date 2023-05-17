@@ -141,3 +141,58 @@ right: 0;
 .ranking-of-kings{
     width: 100%;
 }
+
+/**/
+.img-con-animacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article{
+    position: relative;
+    width: 230px;
+    transition: all .3s ease;
+}
+
+.img-1{
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.img-2{
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(25%);
+    transition:  .3s ease;
+    opacity: 0;
+}
+
+article:hover {
+    transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+    
+}
+
+article::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.5) 50%), rgba(0, 0, 0) 95%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+article:hover::before{
+    opacity: 1;
+}
+
+article:hover .img-2{
+    opacity: 1;
+    transform: translateY(10%);
+}
