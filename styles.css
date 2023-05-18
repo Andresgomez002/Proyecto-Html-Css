@@ -1,4 +1,4 @@
-/*Header*/
+
 .header{
     background-color: black;
 }
@@ -31,7 +31,6 @@ div#navbarNavDropdown {
     padding: 0;
 }
 
-/*Slider*/
 .main{
     background-color: black;
 }
@@ -50,7 +49,7 @@ span.carousel-control-next-icon {
     background-color: black;
 }
 .carousel-indicators [data-bs-target] {
-    
+
     background-color: blue;
  
 }
@@ -138,7 +137,7 @@ right: 0;
     padding-left: 15px;
    
 }
-.ranking-of-kings{
+.img-largas{
     width: 100%;
 }
 
@@ -175,7 +174,7 @@ article{
 
 article:hover {
     transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
-    
+
 }
 
 article::before{
