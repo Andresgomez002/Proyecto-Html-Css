@@ -34,6 +34,167 @@ div#navbarNavDropdown {
 .main{
     background-color: black;
 }
+.principal {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+span.carousel-control-prev-icon {
+    background-color: black;
+}
+
+span.carousel-control-next-icon {
+    background-color: black;
+}
+.carousel-indicators [data-bs-target] {
+
+    background-color: blue;
+ 
+}
+/*Seccion gratis*/
+.gratis{
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    
+    
+}
+.Card{
+    width: 230px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 5px solid blue;
+    position: relative;
+}
+.Card-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.Card-body{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    color: white;
+    position: absolute;
+    background: black;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: 1.5s;
+}
+.Card:hover .Card-body{
+right: 0;
+}
+.Card-title{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Card-info{
+    font-size: 16px;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+}
+.Card-btn{
+    color: blue;
+    background: white;
+    width: 120px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: capitalize;
+    border: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+.seccion-1{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+/* */
+
+.boruto{
+    width: 70vh;
+}
+.tarjeta-grande{
+    display: flex;
+    margin-bottom: 20px;
+
+    
+}
+.adentro{
+    padding-left: 15px;
+   
+}
+.img-largas{
+    width: 100%;
+}
+
+/**/
+.img-con-animacion{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article{
+    position: relative;
+    width: 230px;
+    transition: all .3s ease;
+}
+
+.img-1{
+    border-radius: 4px;
+    object-fit: cover;
+    width: 100%;
+
+}
+
+.img-2{
+    position: absolute;
+    width: 300px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(25%);
+    transition:  .3s ease;
+    opacity: 0;
+}
+
+article:hover {
+    transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+
+}
+
+article::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.5) 50%), rgba(0, 0, 0) 95%;
+    opacity: 0;
+    transition: all .3s ease;
+}
+article:hover::before{
+    opacity: 1;
+}
+
+article:hover .img-2{
+    opacity: 1;
+    transform: translateY(10%);
+}
+
 /* todo del footer */
 .footer {
     background-color: black;
@@ -51,4 +212,5 @@ a {
 .titulos-footer{
     display: flex;
     justify-content: start;
+
 }
