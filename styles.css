@@ -47,3 +47,8 @@ h5 {
 a {
     color: gray
 }
+
+.titulos-footer{
+    display: flex;
+    justify-content: start;
+}
