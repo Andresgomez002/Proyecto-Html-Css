@@ -34,3 +34,16 @@ div#navbarNavDropdown {
 .main{
     background-color: black;
 }
+/* todo del footer */
+.footer {
+    background-color: black;
+}
+ul {
+    list-style: none;
+}
+h5 {
+    color: white;
+}
+a {
+    color: gray
+}
