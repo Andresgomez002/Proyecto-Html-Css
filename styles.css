@@ -214,6 +214,7 @@ a {
 
 .copyright{
 color: white;
+padding-left: 20px;
 }
 
 .titulos-footer{
@@ -221,3 +222,108 @@ color: white;
     justify-content: start;
 
 }
+/* Responsive cards*/
+
+@media (max-width: 1200px){
+    .gratis{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
+       .Card{
+           width: 30%;
+       }
+      
+}
+@media (max-width: 968px){
+    .gratis{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
+       .Card{
+           width: 30%;
+       }
+      
+    
+}
+
+@media (max-width: 768px){
+    .gratis{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
+       .Card{
+           width: 30%;
+       }
+     
+    
+}
+
+@media  (max-width: 567px) {
+    .gratis{
+     flex-wrap: wrap;
+     justify-content: center;
+     
+    }
+    .Card{
+        width: 45%;
+    
+}
+
+/* Responsive tarjeta con texto y botones*/
+@media (max-width: 1200px){
+    .tarjeta-grande{
+        display: flex;
+        flex-direction: column;
+       }
+       .boruto{
+        width: 100%;
+       }
+    
+}
+
+@media (max-width: 780px){
+    .tarjeta-grande{
+        display: flex;
+        flex-direction: column;
+       }
+       .boruto{
+        width: 100%;
+       }
+}
+
+
+@media (max-width: 567px){
+   .tarjeta-grande{
+    display: flex;
+    flex-direction: column;
+   }
+   .boruto{
+    width: 100%;
+   }
+    
+}
+
+/*Responsive cards con animacion*/
+
+@media (max-width: 968px){
+    .img-2{
+        width: 250px;
+       } 
+}
+@media (max-width: 768px){
+    .img-2{
+        width: 180px;
+       } 
+}
+
+
+@media (max-width: 567px){
+   .img-2{
+    width: 130px;
+   }
+     
+ }
+ 
