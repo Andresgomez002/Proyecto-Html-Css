@@ -1,545 +1,780 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+
     <title>Club Manga</title>
-</head>
-<body>
- <header class="header">
-    
-    <div class="container d-flex justify-content-between align-items-center space">
+  </head>
+  <body>
+    <header class="header">
+      <div
+        class="container d-flex justify-content-between align-items-center space"
+      >
         <div class="space">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary classpadding">
-                <div class="container-fluid">
-                  <a class="navbar-brand  logo " href="#"><img class="img-logo" src="Images/0b1f5e5169434d1cb4e37fbfeb23fd8f.png" alt=""></a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon mend"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link text-menu" href="#">Home</a>
-                          </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Explorar
-                        </a>
-                        <ul class="dropdown-menu ">
-                            <li><a class="dropdown-item" href="#">Populares</a></li>
-                            <li><a class="dropdown-item" href="#">Calendario de lanzamientos</a></li>
-                        </ul>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Generos
-                        </a>
-                        <ul class="dropdown-menu ">
-                            <div class="row d-flex justify-content-between">
-                                <div class="col">
-                                <li><a class="dropdown-item" href="#">Accion</a></li>
-                                <li><a class="dropdown-item" href="#">Comedia</a></li>
-                                <li><a class="dropdown-item" href="#">Drama</a></li>
-                                <li><a class="dropdown-item" href="#">Aventura</a></li>
-                                <li><a class="dropdown-item" href="#">Fantasia</a></li>
-                                <li><a class="dropdown-item" href="#">Romance</a></li>
-                                <li><a class="dropdown-item" href="#">Deportes</a></li>
-                                </div>
-                              
-                            </div>
-                            
-                        </ul>
-                      </li>
-                      
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-menu" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                          Noticias
-                        </a>
-                        <ul class="dropdown-menu">
-                          <li><a class="dropdown-item" href="#">Todas las noticias</a></li>
-                        </ul>
+          <nav class="navbar navbar-expand-lg bg-body-tertiary classpadding">
+            <div class="container-fluid">
+              <a class="navbar-brand logo" href="#"
+                ><img
+                  class="img-logo"
+                  src="Images/0b1f5e5169434d1cb4e37fbfeb23fd8f.png"
+                  alt=""
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon mend"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link text-menu" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-menu"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Explorar
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Populares</a></li>
+                      <li>
+                        <a class="dropdown-item" href="#"
+                          >Calendario de lanzamientos</a
+                        >
                       </li>
                     </ul>
-                  </div>
-                </div>
-              </nav>
-        </div>
-        
-
-          <div class="iconos-menu d-flex justify-content-around gap-4">
-           
-            <div class="search">
-                <a class="icons-color" href="#"><i class="bi bi-search"></i></a>
-            </div>
-            <div class="lista">
-                <a class="icons-color" href="#"><i class="bi bi-bookmark-fill"></i></a>
-            </div>
-            <div class="account">
-                <a class="icons-color" href="#"><i class="bi bi-person-fill"></i></a>
-            </div>
-            
-          </div>
-
-   </div>
-   
- </header>
-
-<main class="main">
-
-  <div class="container">
-    <div id="carouselExampleIndicators" class="carousel slide">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-        </div>
-        <div class="carousel-inner principal">
-          <div class="carousel-item active">  
-               <a href="#"><img src="Images/onepiece.webp" class="d-block w-100 " alt="One Piece"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="#"><img src="Images/jujutsu kaisen.webp" class="d-block w-100 img-slider" alt="Jujutsu Kaisen"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="#"><img src="Images/Mashle.webp" class="d-block w-100 img-slider" alt="Mashle"></a>
-          </div>
-          <div class="carousel-item">
-            <a href="#"><img src="Images/toilet bound.jpe" class="d-block w-100 img-slider" alt="Toilet bound"></a>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-    <h2 class="seccion-1">Mangas Que Puedes Leer Gratis:  </h2>
-     <div class="gratis gap-3 ">
-          <div class="Card">
-            <img src="Images/boku-no-hero-academy.download" alt="My hero Academia" class="Card-img">
-          <div class="Card-body">
-            <h1 class="Card-title seccion-1">My Hero Academia</h1>
-            <p class="Card-info seccion-1"></p>
-            <button class="Card-btn">Leer</button>
-          </div>
-        </div>
-      
-          <div class="Card">
-        <img src="Images/Volume_1 jujutsu.webp" alt="Jujutsu Kaisen" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Jujutsu kaisen</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-
-      <div class="Card">
-        <img src="Images/Cowboy_Bebop_Serie_de_TV-232118024-large.webp" alt="Cowboy-Bebop" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Cowboy-Bebop</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg" alt="HunterxHunter" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Hunter x Hunter</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/BERSERK-1-japo.jpg" alt="Berserk" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Berserk</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/20.webp" alt="20TH Century Boys" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">20TH Century Boys</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-     </div>
-
-     <div class="tarjeta-grande">
-      
-        <img src="Images/boruto.jpe" alt="Boruto" class="boruto">
-        <div class="adentro">
-          <h1 class="seccion-1">BORUTO: NARUTO NEXT GENERATIONS</h1>
-          <p class="seccion-1">En Konoha han entrado en una era de paz y modernidad. Los altos edificios despuntan en las calles, las pantallas gigantes muestran imágenes de todo tipo y los medios de transporte conectan los vairos distritos. Pese a que sigue siendo una aldea ninja, el número de civiles ha aumentado y la vida de los ninja ha cambiado.</p>
-          <button type="button" class="btn btn-primary"><i class="bi bi-play"></i> Comenzar a Leer</button>
-          <button type="button" class="btn btn-outline-danger"><i class="bi bi-bookmark"></i> Añadir a mi lista</button>
-      </div>
- 
-     </div>
-    
-      <a href="#"><img src="Images/ranking of kings.png" alt="ranking-of-kings" class="img-largas"></a>
-     
-      <h2  class="seccion-1">Algunos de tus personajes favoritos:  </h2>
-      <div class="img-con-animacion gap-5">
-        <article>
-          <img src="Images/goku-01.png" alt="Goku" class="img-1">
-          <img src="Images/goku-02.png" alt="Goku" class="img-2">
-        </article>
-        <article>
-          <img src="Images/ichigo-01.png" alt="Ichigo" class="img-1">
-          <img src="Images/ichigo-02.png" alt="Ichigo" class="img-2">
-        </article>
-
-        <article>
-          <img src="Images/luffy-01.png" alt="Luffy" class="img-1">
-          <img src="Images/luffy-02.png" alt="Luffy" class="img-2">
-        </article>
-      </div>
-
-      <h2 class="seccion-1">Ultimos acualizados:  </h2>
-     <div class="gratis gap-3 ">
-          <div class="Card">
-          <img src="Images/bungo stray dogs.jpe" alt="Bungo stray dogs" class="Card-img">
-          <div class="Card-body">
-            <h1 class="Card-title seccion-1">Bungo stray dogs</h1>
-            <p class="Card-info seccion-1"></p>
-            <button class="Card-btn">Leer</button>
-          </div>
-        </div>
-      
-          <div class="Card">
-        <img src="Images/gunma chan.jpe" alt="Gunma cham" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Gunma cham</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-
-      <div class="Card">
-        <img src="Images/skip and loafer.jpe" alt="skip and loafer" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">skip and loafer</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/the marginal service.jpe" alt="The marginal servive" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">The marginal servive</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/to you eternity.png" alt="to you eternity" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">to you eternity</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/the ancient magus bride.jpg" alt="the ancient magus bride" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">the ancient magus bride</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-     </div>
-
-     
-     <div class="tarjeta-grande">
-      
-      <img src="Images/toilet bound.jpe" alt="toilet bound" class="boruto">
-      <div class="adentro">
-        <h1 class="seccion-1">Toilet-bound Hanako-kun</h1>
-        <p class="seccion-1">Yashiro Nene busca ayuda fantasmal con su vida amorosa, pero cuando "Hanako-san", el espíritu que concede deseos que acecha en el baño de las niñas, resulta ser un niño, puede terminar recibiendo más o menos de lo que esperaba.</p>
-        <button type="button" class="btn btn-primary"><i class="bi bi-play"></i> Comenzar a Leer</button>
-        <button type="button" class="btn btn-outline-danger"><i class="bi bi-bookmark"></i> Añadir a mi lista</button>
-    </div>
-
-    </div>
-
-    <a href="#"><img src="Images/My love story.png" alt="My love" class="img-largas"></a>
-
-    <h2 class="seccion-1">Lo mas popular:  </h2>
-     <div class="gratis gap-3 ">
-          <div class="Card">
-          <img src="Images/chainsaw-man-vol-1-9781974709939_hr.jpg" alt="Chainsaw-man" class="Card-img">
-          <div class="Card-body">
-            <h1 class="Card-title seccion-1">Chainsaw-man</h1>
-            <p class="Card-info seccion-1"></p>
-            <button class="Card-btn">Leer</button>
-          </div>
-        </div>
-      
-          <div class="Card">
-        <img src="Images/blue lock.jpe" alt="blue lock" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Blue Lock</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-
-      <div class="Card">
-        <img src="Images/monster.webp" alt="Monster" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Monster</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/nana.jpg" alt="Nana" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Nana</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/opiece.jpg" alt="Onepiece" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">One Piece</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/tokiorevengers.jpe" alt="tokio revengers" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">tokio revengers</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-     </div>
-
-     <div class="tarjeta-grande">
-      
-      <img src="Images/chain.avif" alt="chainsaw-man" class="boruto">
-      <div class="adentro">
-        <h1 class="seccion-1">Chainsaw-man</h1>
-        <p class="seccion-1">Denji es un adolescente que vive con un demonio motosierra llamado Pochita. Para pagar la deuda que le dejó su padre tras su muerte, ha tenido que ganarse el pan como puede matando demonios y vendiendo sus cadáverse a la mafia, aunque su vida siempre ha sido miserable.</p>
-        <button type="button" class="btn btn-primary"><i class="bi bi-play"></i> Comenzar a Leer</button>
-        <button type="button" class="btn btn-outline-danger"><i class="bi bi-bookmark"></i> Añadir a mi lista</button>
-    </div>
-
-    </div>
-
-     
-
-     <h2 class="seccion-1">Los mejores seinen:  </h2>
-     <div class="gratis gap-3 ">
-          <div class="Card">
-          <img src="Images/buta no fukusho.jpg" alt="Buta no fukusho" class="Card-img">
-          <div class="Card-body">
-            <h1 class="Card-title seccion-1">Buta no fukusho</h1>
-            <p class="Card-info seccion-1"></p>
-            <button class="Card-btn">Leer</button>
-          </div>
-        </div>
-      
-          <div class="Card">
-        <img src="Images/jojos.jpg" alt="Jojos" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Jojos</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-
-      <div class="Card">
-        <img src="Images/bakenomogatari.jpg" alt="Bakemonogatari" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Bakemonogatari</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/mf ghost.jpg" alt="Mf-ghost" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Mf-ghost</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/tonari.jpg" alt="tonari" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Tonari no kyuuketsuki-san</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/gokusotsu.webp" alt="gokusotsu" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">gokusotsu</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-     </div>
-
-     <a href="#"><img src="Images/hellsp.png" alt="Hell's paradise" class="img-largas"></a>
-
-     <h2 class="seccion-1">Los mejores shonen:  </h2>
-     <div class="gratis gap-3 ">
-          <div class="Card">
-          <img src="Images/baki.jpg" alt="Baki" class="Card-img">
-          <div class="Card-body">
-            <h1 class="Card-title seccion-1">Baki</h1>
-            <p class="Card-info seccion-1"></p>
-            <button class="Card-btn">Leer</button>
-          </div>
-        </div>
-      
-          <div class="Card">
-        <img src="Images/ragnarok.jpg" alt="Record of ragnarok" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Record of ragnarok</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-
-      <div class="Card">
-        <img src="Images/mashl.jpg" alt="Mashle" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">Mashle</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/daidark.jpg" alt="daidark" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">dai dark</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/darkgatherin.jpg_large" alt="darkgatherin" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">dark gatherin</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-      <div class="Card">
-        <img src="Images/hajimete.jpe" alt="hajimete" class="Card-img">
-        <div class="Card-body">
-          <h1 class="Card-title seccion-1">hajimete</h1>
-          <p class="Card-info seccion-1"></p>
-          <button class="Card-btn">Leer</button>
-        </div>
-      </div>
-     </div>
-
-
-
-  </div>
-
-
-</main>
-
-<hr>
-
-
-<footer class="footer">
-  <div class="container content-pre-footer">
-      <div class="row">
-          <div class="col">
-              
-              <ul class="menu-social">
-                <h5>Contacta con nosotros</h5>
-                  <li><a href="#" class="text-decoration-none">
-                      <i class="bi bi-facebook"></i>
-                      <a href="#" class="text-decoration-none">Facebook</a>
-                  </a></li>
-                  <li><a href="#" class="text-decoration-none">
-                      <i class="bi bi-twitter"></i>
-                      <a href="#" class="text-decoration-none">Twitter</a>
-                  </a></li>
-                  <li><a href="#" class="text-decoration-none">
-                      <i class="bi bi-youtube"></i>
-                      <a href="#" class="text-decoration-none">Youtube</a>
-                  </a></li>
-                  <li><a href="#" class="text-decoration-none">
-                      <i class="bi bi-instagram"></i>
-                      <a href="#" class="text-decoration-none">Instagram</a>
-                  </a>
                   </li>
-                  <li><a href="#" class="text-decoration-none">
-                      <i class="bi bi-tiktok"></i>
-                      <a href="#" class="text-decoration-none">Tiktok</a>
-                  </a>
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-menu"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Generos
+                    </a>
+                    <ul class="dropdown-menu">
+                      <div class="row d-flex justify-content-between">
+                        <div class="col">
+                          <li><a class="dropdown-item" href="#">Accion</a></li>
+                          <li><a class="dropdown-item" href="#">Comedia</a></li>
+                          <li><a class="dropdown-item" href="#">Drama</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Aventura</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Fantasia</a>
+                          </li>
+                          <li><a class="dropdown-item" href="#">Romance</a></li>
+                          <li>
+                            <a class="dropdown-item" href="#">Deportes</a>
+                          </li>
+                        </div>
+                      </div>
+                    </ul>
                   </li>
-              </ul>
-          </div>
-          <div class="col">
-              
-              <ul class="menu-widget">
-                <h5 class="title-widget">Navegacion</h5>
-                  <li><a href="#" class="text-decoration-none">Explorar lo mas popular</a></li>
-                  <li><a href="#" class="text-decoration-none">Explorar mangas</a></li>
-                  <li><a href="#" class="text-decoration-none">Calendarios de lanzamientos</a></li>
-                  <li><a href="#" class="text-decoration-none">Noticias</a></li>
-                  <li><a href="#" class="text-decoration-none">Juegos</a></li>
-              </ul>
-          </div>
-          <div class="col">
-              
-              <ul class="menu-widget">
-                <h5 class="title-widget">Club Manga</h5>
-                  <li><a href="#" class="text-decoration-none">Comienza tu Puebra Gratuita</a></li>
-                  <li><a href="#" class="text-decoration-none">Acerca</a></li>
-                  <li><a href="#" class="text-decoration-none">Terminos de uso</a></li>
-                  <li><a href="#" class="text-decoration-none">Politica de Privacidad</a></li>
-                  <li><a href="#" class="text-decoration-none">Contacto</a></li>
-                  <li><a href="#" class="text-decoration-none">Hazte con nuestras aplicaciones</a></li>
-                  <li><a href="#" class="text-decoration-none">Canjear tarjeta de regalo</a></li>
-              </ul>
-          </div>
-          <div class="col">
-              
-              <ul class="menu-widget">
-                <h5 class="title-widget">Cuenta</h5>
-                  <li><a href="#" class="text-decoration-none">Crear cuenta</a></li>
-                  <li><a href="#" class="text-decoration-none">Acceder</a></li>
-              </ul>
-          </div>
-      </div>
-           <div class="container">
-              <div class="copyright">
-               <p> Copyright © 2023 </p>
+
+                  <li class="nav-item dropdown">
+                    <a
+                      class="nav-link dropdown-toggle text-menu"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      Noticias
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li>
+                        <a class="dropdown-item" href="#">Todas las noticias</a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
               </div>
+            </div>
+          </nav>
+        </div>
+
+        <div class="iconos-menu d-flex justify-content-around gap-4">
+          <div class="search">
+            <a class="icons-color" href="#"><i class="bi bi-search"></i></a>
+          </div>
+          <div class="lista">
+            <a class="icons-color" href="#"
+              ><i class="bi bi-bookmark-fill"></i
+            ></a>
+          </div>
+          <div class="account">
+            <a class="icons-color" href="User.html"
+              ><i class="bi bi-person-fill"></i
+            ></a>
+          </div>
+        </div>
       </div>
-  </div>
-</footer>
+    </header>
 
+    <main class="main">
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="3"
+              aria-label="Slide 4"
+            ></button>
+          </div>
+          <div class="carousel-inner principal">
+            <div class="carousel-item active">
+              <a href="#"
+                ><img
+                  src="Images/onepiece.webp"
+                  class="d-block w-100"
+                  alt="One Piece"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="Images/jujutsu kaisen.webp"
+                  class="d-block w-100 img-slider"
+                  alt="Jujutsu Kaisen"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="Images/Mashle.webp"
+                  class="d-block w-100 img-slider"
+                  alt="Mashle"
+              /></a>
+            </div>
+            <div class="carousel-item">
+              <a href="#"
+                ><img
+                  src="Images/toilet bound.jpe"
+                  class="d-block w-100 img-slider"
+                  alt="Toilet bound"
+              /></a>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
 
+        <h2 class="seccion-1">Mangas Que Puedes Leer Gratis:</h2>
+        <div class="gratis gap-3">
+          <div class="Card">
+            <img
+              src="Images/boku-no-hero-academy.download"
+              alt="My hero Academia"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">My Hero Academia</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
 
+          <div class="Card">
+            <img
+              src="Images/Volume_1 jujutsu.webp"
+              alt="Jujutsu Kaisen"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Jujutsu kaisen</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>  
-</body>
+          <div class="Card">
+            <img
+              src="Images/Cowboy_Bebop_Serie_de_TV-232118024-large.webp"
+              alt="Cowboy-Bebop"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Cowboy-Bebop</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/ucpgmUR1h5Te1BYegKItoPjOeF7.jpg"
+              alt="HunterxHunter"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Hunter x Hunter</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/BERSERK-1-japo.jpg"
+              alt="Berserk"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Berserk</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/20.webp"
+              alt="20TH Century Boys"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">20TH Century Boys</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta-grande">
+          <img src="Images/boruto.jpe" alt="Boruto" class="boruto" />
+          <div class="adentro">
+            <h1 class="seccion-1">BORUTO: NARUTO NEXT GENERATIONS</h1>
+            <p class="seccion-1">
+              En Konoha han entrado en una era de paz y modernidad. Los altos
+              edificios despuntan en las calles, las pantallas gigantes muestran
+              imágenes de todo tipo y los medios de transporte conectan los
+              vairos distritos. Pese a que sigue siendo una aldea ninja, el
+              número de civiles ha aumentado y la vida de los ninja ha cambiado.
+            </p>
+            <button type="button" class="btn btn-primary">
+              <i class="bi bi-play"></i> Comenzar a Leer
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              <i class="bi bi-bookmark"></i> Añadir a mi lista
+            </button>
+          </div>
+        </div>
+
+        <a href="#"
+          ><img
+            src="Images/ranking of kings.png"
+            alt="ranking-of-kings"
+            class="img-largas"
+        /></a>
+
+        <h2 class="seccion-1">Algunos de tus personajes favoritos:</h2>
+        <div class="img-con-animacion gap-5">
+          <article>
+            <img src="Images/goku-01.png" alt="Goku" class="img-1" />
+            <img src="Images/goku-02.png" alt="Goku" class="img-2" />
+          </article>
+          <article>
+            <img src="Images/ichigo-01.png" alt="Ichigo" class="img-1" />
+            <img src="Images/ichigo-02.png" alt="Ichigo" class="img-2" />
+          </article>
+
+          <article>
+            <img src="Images/luffy-01.png" alt="Luffy" class="img-1" />
+            <img src="Images/luffy-02.png" alt="Luffy" class="img-2" />
+          </article>
+        </div>
+
+        <h2 class="seccion-1">Ultimos acualizados:</h2>
+        <div class="gratis gap-3">
+          <div class="Card">
+            <img
+              src="Images/bungo stray dogs.jpe"
+              alt="Bungo stray dogs"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Bungo stray dogs</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img
+              src="Images/gunma chan.jpe"
+              alt="Gunma cham"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Gunma cham</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img
+              src="Images/skip and loafer.jpe"
+              alt="skip and loafer"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">skip and loafer</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/the marginal service.jpe"
+              alt="The marginal servive"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">The marginal servive</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/to you eternity.png"
+              alt="to you eternity"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">to you eternity</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/the ancient magus bride.jpg"
+              alt="the ancient magus bride"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">the ancient magus bride</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta-grande">
+          <img
+            src="Images/toilet bound.jpe"
+            alt="toilet bound"
+            class="boruto"
+          />
+          <div class="adentro">
+            <h1 class="seccion-1">Toilet-bound Hanako-kun</h1>
+            <p class="seccion-1">
+              Yashiro Nene busca ayuda fantasmal con su vida amorosa, pero
+              cuando "Hanako-san", el espíritu que concede deseos que acecha en
+              el baño de las niñas, resulta ser un niño, puede terminar
+              recibiendo más o menos de lo que esperaba.
+            </p>
+            <button type="button" class="btn btn-primary">
+              <i class="bi bi-play"></i> Comenzar a Leer
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              <i class="bi bi-bookmark"></i> Añadir a mi lista
+            </button>
+          </div>
+        </div>
+
+        <a href="#"
+          ><img src="Images/My love story.png" alt="My love" class="img-largas"
+        /></a>
+
+        <h2 class="seccion-1">Lo mas popular:</h2>
+        <div class="gratis gap-3">
+          <div class="Card">
+            <img
+              src="Images/chainsaw-man-vol-1-9781974709939_hr.jpg"
+              alt="Chainsaw-man"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Chainsaw-man</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img src="Images/blue lock.jpe" alt="blue lock" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Blue Lock</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img src="Images/monster.webp" alt="Monster" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Monster</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/nana.jpg" alt="Nana" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Nana</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/opiece.jpg" alt="Onepiece" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">One Piece</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/tokiorevengers.jpe"
+              alt="tokio revengers"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">tokio revengers</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="tarjeta-grande">
+          <img src="Images/chain.avif" alt="chainsaw-man" class="boruto" />
+          <div class="adentro">
+            <h1 class="seccion-1">Chainsaw-man</h1>
+            <p class="seccion-1">
+              Denji es un adolescente que vive con un demonio motosierra llamado
+              Pochita. Para pagar la deuda que le dejó su padre tras su muerte,
+              ha tenido que ganarse el pan como puede matando demonios y
+              vendiendo sus cadáverse a la mafia, aunque su vida siempre ha sido
+              miserable.
+            </p>
+            <button type="button" class="btn btn-primary">
+              <i class="bi bi-play"></i> Comenzar a Leer
+            </button>
+            <button type="button" class="btn btn-outline-danger">
+              <i class="bi bi-bookmark"></i> Añadir a mi lista
+            </button>
+          </div>
+        </div>
+
+        <h2 class="seccion-1">Los mejores seinen:</h2>
+        <div class="gratis gap-3">
+          <div class="Card">
+            <img
+              src="Images/buta no fukusho.jpg"
+              alt="Buta no fukusho"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Buta no fukusho</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img src="Images/jojos.jpg" alt="Jojos" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Jojos</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img
+              src="Images/bakenomogatari.jpg"
+              alt="Bakemonogatari"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Bakemonogatari</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/mf ghost.jpg" alt="Mf-ghost" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Mf-ghost</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/tonari.jpg" alt="tonari" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Tonari no kyuuketsuki-san</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/gokusotsu.webp" alt="gokusotsu" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">gokusotsu</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+        </div>
+
+        <a href="#"
+          ><img
+            src="Images/hellsp.png"
+            alt="Hell's paradise"
+            class="img-largas"
+        /></a>
+
+        <h2 class="seccion-1">Los mejores shonen:</h2>
+        <div class="gratis gap-3">
+          <div class="Card">
+            <img src="Images/baki.jpg" alt="Baki" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Baki</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img
+              src="Images/ragnarok.jpg"
+              alt="Record of ragnarok"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Record of ragnarok</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+
+          <div class="Card">
+            <img src="Images/mashl.jpg" alt="Mashle" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">Mashle</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/daidark.jpg" alt="daidark" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">dai dark</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img
+              src="Images/darkgatherin.jpg_large"
+              alt="darkgatherin"
+              class="Card-img"
+            />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">dark gatherin</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+          <div class="Card">
+            <img src="Images/hajimete.jpe" alt="hajimete" class="Card-img" />
+            <div class="Card-body">
+              <h1 class="Card-title seccion-1">hajimete</h1>
+              <p class="Card-info seccion-1"></p>
+              <button class="Card-btn">Leer</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <hr />
+
+    <footer class="footer">
+      <div class="container content-pre-footer">
+        <div class="row">
+          <div class="col">
+            <ul class="menu-social">
+              <h5>Contacta con nosotros</h5>
+              <li>
+                <a href="#" class="text-decoration-none">
+                  <i class="bi bi-facebook"></i>
+                  <a href="#" class="text-decoration-none">Facebook</a>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">
+                  <i class="bi bi-twitter"></i>
+                  <a href="#" class="text-decoration-none">Twitter</a>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">
+                  <i class="bi bi-youtube"></i>
+                  <a href="#" class="text-decoration-none">Youtube</a>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">
+                  <i class="bi bi-instagram"></i>
+                  <a href="#" class="text-decoration-none">Instagram</a>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">
+                  <i class="bi bi-tiktok"></i>
+                  <a href="#" class="text-decoration-none">Tiktok</a>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="menu-widget">
+              <h5 class="title-widget">Navegacion</h5>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Explorar lo mas popular</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none">Explorar mangas</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Calendarios de lanzamientos</a
+                >
+              </li>
+              <li><a href="#" class="text-decoration-none">Noticias</a></li>
+              <li><a href="#" class="text-decoration-none">Juegos</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="menu-widget">
+              <h5 class="title-widget">Club Manga</h5>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Comienza tu Puebra Gratuita</a
+                >
+              </li>
+              <li><a href="#" class="text-decoration-none">Acerca</a></li>
+              <li>
+                <a href="#" class="text-decoration-none">Terminos de uso</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Politica de Privacidad</a
+                >
+              </li>
+              <li><a href="#" class="text-decoration-none">Contacto</a></li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Hazte con nuestras aplicaciones</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none"
+                  >Canjear tarjeta de regalo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col">
+            <ul class="menu-widget">
+              <h5 class="title-widget">Cuenta</h5>
+              <li><a href="#" class="text-decoration-none">Crear cuenta</a></li>
+              <li><a href="#" class="text-decoration-none">Acceder</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="copyright">
+            <p>Copyright ©</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
