@@ -33,13 +33,13 @@ body{
     background-color: black;
 }
 .main{
-    background-color: gray;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .login{
-    color: black;
+    color: white;
 }
 
 .wrapper{
@@ -49,14 +49,23 @@ body{
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 15px;
+    z-index: 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: white;
+    overflow: hidden;
     
 }
+
 .wrapper .form-box{
     width: 100%;
     padding: 40px;
+    
+}
+
+.wrapper .form-box .login{
+    display: none;
 }
 
 .form-box h2{
@@ -69,6 +78,7 @@ body{
     height: 50px;
     border-bottom: 2px solid rgba(255, 255, 255, .5);
     margin: 30px 0;
+   
 }
 .input-box label{
     position: absolute;
@@ -95,6 +105,7 @@ body{
     font-size: 1em;
     font-weight: 600;
     padding: 0 35px 0 5px;
+    color: white;
 }
 .input-box .icon{
 position: absolute;
@@ -117,6 +128,9 @@ line-height: 57px;
     margin-right: 3px;
     text-decoration: none;
 }
+.remember-forgot a:hover{
+  text-decoration: underline;
+}
 
 .btn{
     width: 100%;
@@ -134,17 +148,42 @@ line-height: 57px;
     font-size:  .9em;
     text-align: center;
     font-weight: 500;
+    margin: 25px 0 10px;
+}
+.login-register p a:hover{
+text-decoration: underline;
 }
 .forget{
-    color: black;
+    color: blue;
     text-decoration: none;
-
+    font-weight: 600;
 }
 
 
 
 .footer {
     background-color: black;
+}
+.link-list{
+    
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: -1rem;
+        margin-right: -1rem;
+        text-align: center;
+        gap: 20px;
+        
+}
+.t{
+    list-style-type: none;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.hr{
+    color: white;
 }
 ul {
     list-style: none;
@@ -155,14 +194,7 @@ h5 {
 a {
     color: gray
 }
-
 .copyright{
-color: white;
-padding-left: 20px;
-}
-
-.titulos-footer{
-    display: flex;
-    justify-content: start;
-
-}
+    color: white;
+    padding-left: 20px;
+    }
