@@ -159,6 +159,34 @@ text-decoration: underline;
     font-weight: 600;
 }
 
+/**/
+@media (max-width: 968px){
+  .rem{
+    width: 28%;
+  } 
+  .rem1{
+    width: 30%;
+  } 
+    
+}
+@media (max-width: 800px){
+    .rem{
+      width: 17%;
+    } 
+    .rem1{
+      width: 21%;
+    } 
+      
+  }
+  @media (max-width: 567px){
+    .rem{
+      opacity: 0;
+    } 
+      
+  }
+
+/**/
+
 .img-fondo{
     display: flex;
     justify-content: center;

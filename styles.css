@@ -377,7 +377,7 @@ color: white;
 ul {
 list-style: none;
 }
-h5 {
+h5, h2, p {
 color: white;
 }
 a {
@@ -430,6 +430,33 @@ padding-left: 20px;
     text-align: center;
     align-items: center;
 }
-.btnl{
+/**/
+.title-one{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.imonep{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.imgone{
+    width: 50%;
+}
+.contonepiece{
+    margin-left: 32px;
+    margin-right: 10px;
     
+}
+.estrellas{
+    color: white;
+    
+}
+.contotal{
+    display: flex;
+}
+.caps{
+    width: 25%;
 }
