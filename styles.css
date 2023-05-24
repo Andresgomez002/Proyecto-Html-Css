@@ -33,7 +33,7 @@ div#navbarNavDropdown {
 body{
     background-color: black;
 }
-
+/**/
 .main{
     background-color: black;
 }
@@ -352,7 +352,7 @@ padding-left: 20px;
 } 
 
 
-
+/**/
 .link-list{
     
     display: flex;
@@ -389,4 +389,47 @@ padding-left: 20px;
 }
 
 
- 
+ /**/
+ .title-lista{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+ .listah{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-bottom: solid 2px white;
+ }
+ .listah:hover{
+    border-bottom: solid 2px blue;
+ }
+
+.btn:hover{
+    background-color: blue;
+}
+.cgrande{
+    margin-top: 30px;
+    border: dotted 2px blue;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.rema {
+    width: 25%;
+    
+}
+.text-lista{
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.btnl{
+    
+}
