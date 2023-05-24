@@ -449,6 +449,7 @@ padding-left: 20px;
     margin-left: 32px;
     margin-right: 10px;
     
+    
 }
 .estrellas{
     color: white;
@@ -456,7 +457,16 @@ padding-left: 20px;
 }
 .contotal{
     display: flex;
+    margin-left: 90px;
 }
 .caps{
-    width: 25%;
+    width: 60%;
+    
+}
+.emleer{
+    display: flex;
+    flex-direction: column;
+}
+.empezarleer {
+    width: 60%;
 }

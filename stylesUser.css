@@ -162,7 +162,7 @@ text-decoration: underline;
 /**/
 @media (max-width: 968px){
   .rem{
-    width: 28%;
+    width: 23%;
   } 
   .rem1{
     width: 30%;
@@ -171,16 +171,19 @@ text-decoration: underline;
 }
 @media (max-width: 800px){
     .rem{
-      width: 17%;
+      display: none;
     } 
     .rem1{
-      width: 21%;
+      display: none;
     } 
       
   }
   @media (max-width: 567px){
     .rem{
-      opacity: 0;
+      display: none;
+    }
+    .rem1{
+        display: none;
     } 
       
   }
