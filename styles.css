@@ -272,6 +272,7 @@ padding-left: 20px;
         width: 45%;
     
 }
+}
 
 /* Responsive tarjeta con texto y botones*/
 @media (max-width: 1200px){
@@ -327,4 +328,62 @@ padding-left: 20px;
    }
      
  }
+ /**/
+ .search-input {
+    width: 85%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .5);
+    font-size: 40px;
+    color: white;
+    
+}
+.search-field{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+   
+    
+}
+
+
+
+
+.link-list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    text-align: center;
+    gap: 20px;
+    
+}
+.t{
+list-style-type: none;
+}
+.a{
+text-decoration: none;
+color: white;
+}
+.hr{
+color: white;
+}
+ul {
+list-style: none;
+}
+h5 {
+color: white;
+}
+a {
+color: gray
+}
+.copyright{
+color: white;
+padding-left: 20px;
+}
+
+
  
