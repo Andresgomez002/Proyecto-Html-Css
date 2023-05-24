@@ -346,7 +346,10 @@ padding-left: 20px;
    
     
 }
-
+.search-input:hover{
+    border-bottom: 2px solid rgba(0, 0, 255, .5);
+    
+} 
 
 
 
