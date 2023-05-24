@@ -159,6 +159,17 @@ text-decoration: underline;
     font-weight: 600;
 }
 
+.img-fondo{
+    display: flex;
+    justify-content: center;
+}
+.rem{
+   width: 32%;
+}
+.rem1{
+    width: 38%;
+ }
+
 
 
 .footer {
