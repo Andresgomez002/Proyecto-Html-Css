@@ -470,3 +470,43 @@ padding-left: 20px;
 .empezarleer {
     width: 60%;
 }
+
+/**/
+
+@media (max-width: 1200px) {
+    .imgone{
+        width: 75%;
+    }
+}
+@media (max-width: 968px) {
+    .imgone{
+        width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .imgone{
+        width: 85%;
+    }
+}
+@media (max-width: 567px) {
+    .imgone{
+        width: 100%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .contotal{
+        display: block;
+        margin-left: auto;
+    }
+    .emleer{
+        margin-left: 31px;
+        margin-top: 30px;
+    }
+    .caps{
+        width: 90%;
+    }
+    .empezarleer{
+        width: 90%;
+    }
+}
