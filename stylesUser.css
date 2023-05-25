@@ -29,6 +29,9 @@ div#navbarNavDropdown {
 .classpadding{
     padding: 0;
 }
+span.navbar-toggler-icon.mend {
+    background-color: whitesmoke;
+}
 body{
     background-color: black;
 }

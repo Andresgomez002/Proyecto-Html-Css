@@ -30,6 +30,9 @@ div#navbarNavDropdown {
 .classpadding{
     padding: 0;
 }
+span.navbar-toggler-icon.mend {
+    background-color: whitesmoke;
+}
 body{
     background-color: black;
 }
@@ -224,7 +227,17 @@ padding-left: 20px;
 
 }
 /* Responsive cards*/
-
+@media (max-width: 1400px){
+    .gratis{
+        flex-wrap: wrap;
+        justify-content: center;
+        
+       }
+       .Card{
+           width: 20%;
+       }
+      
+}
 @media (max-width: 1200px){
     .gratis{
         flex-wrap: wrap;
@@ -232,7 +245,7 @@ padding-left: 20px;
         
        }
        .Card{
-           width: 30%;
+           width: 24%;
        }
       
 }
@@ -243,20 +256,20 @@ padding-left: 20px;
         
        }
        .Card{
-           width: 30%;
+           width: 32%;
        }
       
     
 }
 
-@media (max-width: 768px){
+@media (max-width: 700px){
     .gratis{
         flex-wrap: wrap;
         justify-content: center;
         
        }
        .Card{
-           width: 30%;
+           width: 33%;
        }
      
     
@@ -430,6 +443,13 @@ padding-left: 20px;
     text-align: center;
     align-items: center;
 }
+
+/**/
+@media (max-width: 567px ) {
+    .text-lista h4{
+        font-size: 16px;
+    }
+}
 /**/
 .title-one{
     display: flex;
@@ -470,9 +490,20 @@ padding-left: 20px;
 .empezarleer {
     width: 60%;
 }
+
+.contotal1{
+    display: flex;
+    margin: auto;
+}
 .capsm{
     width: 100%;
+    
 }
+.empezarleer1 {
+    width: 100%;
+}
+
+
 
 /**/
 
@@ -510,6 +541,17 @@ padding-left: 20px;
         width: 90%;
     }
     .empezarleer{
+        width: 90%;
+    }
+    .contotal1{
+        display: block;
+        margin-left: auto;
+    }
+    .capsm{
+        width: 90%;
+        
+    }
+    .empezarleer1 {
         width: 90%;
     }
 }
