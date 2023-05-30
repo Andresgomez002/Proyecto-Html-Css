@@ -354,8 +354,12 @@ ul {
 }
 h5,
 h2,
+h4,
 p {
   color: white;
+}
+h6{
+  color: red;
 }
 a {
   color: gray;
@@ -508,4 +512,14 @@ a {
   .empezarleer1 {
     width: 90%;
   }
+}
+.haztePremium{
+  display: flex;
+}
+.telescopio{
+  color: white;
+  font-size: 1.2rem;
+}
+.premium{
+  text-decoration: none;
 }
