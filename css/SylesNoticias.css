@@ -1,0 +1,135 @@
+ /*notice*/
+ .notice-word{
+    color: white;
+}
+ a.notice-word{
+    color: white;
+    text-decoration: none;
+}
+.notice-adentro{
+    display: flex;
+    width: 98%;
+    margin-bottom: 2rem;
+}
+.notice-img{
+    width: 30%;
+    margin: 0rem 1rem 1rem 0rem;
+    height: 115%;
+    float: left;
+}
+.notice-titulos {
+    width: 80%;
+}
+.notice-cont{
+
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    box-shadow: inset 0 0 20px #000bbb, 0 0 30px #000bbb;
+    position: relative;
+    width: 70%;
+    margin-left: 0;
+    height: 70%;
+    background: linear-gradient( 90deg, #0d0d0d, #303030);
+    margin-bottom: 1rem;
+    padding: 2rem 2rem 1rem 2rem;
+    font-size: 105%;
+    background-image: url(../Images/fondo\ de\ ladrilllos\ para\ main.avif);
+}
+
+.notice-seccion-down {
+    display: flex;
+    justify-content: end;
+}
+
+
+aside.news-right {
+    background-image: url(../Images/fondo\ de\ ladrilllos\ para\ main.avif);
+    box-shadow: inset 0 0 20px #000bbb, 0 0 30px #000bbb;
+    width: 29%;
+    float: right;
+    position: relative;
+    border: 1px solid #eaeaea;
+    padding: 1rem 1rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+form#search_form_news {
+    display: inline-block;
+    margin: 8px 0 10px 4px;
+    border: 1px solid #000bbb;
+    overflow: hidden;
+}
+
+input.search-field {
+    padding: 10px;
+    width: 254px;
+    height: 14px;
+    border: 0;
+    float: left;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+a.news-articulos {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+ul.news-abbr {
+    margin: 10px 10px 10px 0;
+    padding: 0;
+}
+
+.mug {
+    float: left;
+    margin-right: 1rem;
+    padding-bottom: 1rem;
+    margin-top: 6px;
+}
+
+.container-news {
+    padding: 0rem 5rem 0rem 7rem;
+}
+
+h2 {
+    margin-bottom: -2rem;
+}
+
+.news-header-container {
+    margin-top: 2rem;
+}
+
+p.news-informanos {
+    text-align: right;
+    margin-right: 25rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+button.search-submit-button {
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    border: 0;
+    background-color: blue;
+}
+
+h2.news-text {
+    color: white;
+}
+
+h1.news-right-header {
+    color: white;
+}
+
+.byline {
+    color: white;
+}
+
+p.post-date{
+    color: white;
+}
